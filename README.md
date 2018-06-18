@@ -43,3 +43,6 @@ Tut 6: Interface
     used to implement multiple inheritance.
     used using implements keyword
     alias is also possible using keyword 'as'
+
+Tut 7: Dealing with data
+    data can be of form : variable, array, object, array-object
