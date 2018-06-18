@@ -1,4 +1,4 @@
-var msg = 'Welcome to TypeScript';
+var msg : string = 'Welcome to TypeScript';
 console.log(msg);
 
 var firstName : string = 'Abhinav';
@@ -12,19 +12,3 @@ console.log(firstName + ' ' + typeof(firstName) + '\n' + lastName + ' ' +  typeo
             height + ' ' +  typeof(height) +  '\n' + isDeveloper +  ' ' +  typeof(isDeveloper) +  '\n' + 
             contact + ' ' + typeof(contact) +  '\n' + newContact + ' ' + typeof(newContact));
 
-function GreetUser(){
-    return 'Welcome to Functions'
-}
-
-function Greet(name : string){
-    console.log('Welcome, ' + name);
-    return 'Welcome, ' + name;
-}
-
-var f1 = GreetUser();
-
-var f2 = Greet('Abhinav');
-
-console.log(f1);
-
-console.log(f2);
