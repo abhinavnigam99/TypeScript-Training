@@ -34,3 +34,12 @@ Tut 4: Class
         class is treated as function.
         members are defined under constructor.
         function is defined as prototype.
+    Accessors: public,private,protected
+
+Tut 5: Inheritance
+    can only be used to extend one class
+    
+Tut 6: Interface
+    used to implement multiple inheritance.
+    used using implements keyword
+    alias is also possible using keyword 'as'

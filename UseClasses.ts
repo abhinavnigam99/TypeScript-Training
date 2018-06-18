@@ -1,4 +1,7 @@
-import { Employee, Accounts } from "./Employee";
+import {
+    Employee,
+    Accounts
+} from "./Employee";
 
 var obj = new Employee();
 obj.displayInfo();

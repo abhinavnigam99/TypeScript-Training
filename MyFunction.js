@@ -10,6 +10,7 @@ function greetUser(name) {
 }
 var f2 = greetUser('Abhinav');
 console.log(f2);
+
 function add(a, b) {
     return a + b;
 }
@@ -17,7 +18,9 @@ var f3 = add(2, 5);
 console.log(f3);
 //default
 function addWithOperator(a, b, c) {
-    if (c === void 0) { c = '+'; }
+    if (c === void 0) {
+        c = '+';
+    }
     return a + b;
 }
 var f4 = addWithOperator(2, 3, '-');

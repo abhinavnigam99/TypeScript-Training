@@ -1,2 +1,2 @@
-var header : string = 'News';
+var header: string = 'News';
 console.log(header);
