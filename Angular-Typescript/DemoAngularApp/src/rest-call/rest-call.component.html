@@ -1,0 +1,13 @@
+<p>
+  rest-call works!
+</p>
+<table class="table table-hover table-striped table-bordered ">
+  <tr *ngFor="let e of restData">
+    <td>{{e.albumId}}</td>
+    <td>{{e.id}}</td>
+    <td>{{e.title}}</td>
+    <td>
+      <img src="{{e.thumbnailUrl}}" class="rounded" />
+    </td>
+  </tr>
+</table>
