@@ -1,0 +1,8 @@
+<div style="text-align: center">
+    <h1>{{contactNo}}</h1>
+    <h2>{{emailAddress}}</h2>
+    <h3>{{hqaAddress}}</h3>
+    <h4>{{branchAddress}}</h4>
+</div>
+<input [ngModel]="username" (ngModelChange)="username = $event"/>
+<h6>{{greetings(username)}}</h6>
