@@ -46,3 +46,6 @@ Tut 6: Interface
 
 Tut 7: Dealing with data
     data can be of form : variable, array, object, array-object
+
+Angular with Typescript
+    create new project : ng new project_name
